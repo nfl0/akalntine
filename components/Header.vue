@@ -11,27 +11,27 @@
         <ul class="right hide-on-med-and-down">
           <li>
             <nuxt-link to="/faculties/">
-              Faculties
+              Membres
             </nuxt-link>
           </li>
           <li>
             <nuxt-link to="/activities/">
-              Activities
+              Activités
             </nuxt-link>
           </li>
           <li>
             <nuxt-link to="/awards/">
-              Awards
+              Récompenses
             </nuxt-link>
           </li>
           <li>
             <nuxt-link to="/newsletter/">
-              Newsletter
+              Bulletin
             </nuxt-link>
           </li>
           <li>
             <nuxt-link to="/gallery/">
-              Gallery
+              Galerie
             </nuxt-link>
           </li>
           <li>
@@ -56,27 +56,27 @@
       </li>
       <li>
         <nuxt-link to="/faculties/">
-          Faculties
+          Membres
         </nuxt-link>
       </li>
       <li>
         <nuxt-link to="/activities/">
-          Activities
+          Activités
         </nuxt-link>
       </li>
       <li>
         <nuxt-link to="/awards/">
-          Awards
+          Récompenses
         </nuxt-link>
       </li>
       <li>
         <nuxt-link to="/newsletter/">
-          Newsletter
+          Bulletin
         </nuxt-link>
       </li>
       <li>
         <nuxt-link to="/gallery/">
-          Gallery
+          Galerie
         </nuxt-link>
       </li>
       <li>
