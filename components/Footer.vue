@@ -9,17 +9,17 @@
           <ul>
             <li>
               <nuxt-link to="/" class="grey-text text-lighten-3">
-                Home
+                Page d'accueil
               </nuxt-link>
             </li>
             <li>
               <nuxt-link to="/newsletter" class="grey-text text-lighten-3">
-                Newsletter
+                Bulletin
               </nuxt-link>
             </li>
             <li>
               <nuxt-link to="/gallery" class="grey-text text-lighten-3">
-                Gallery
+                Galerie
               </nuxt-link>
             </li>
             <li>
@@ -35,23 +35,23 @@
           </h5>
           <ul>
             <li>
-              <a href="http://nssce.ac.in" class="grey-text text-lighten-3">
-                NSSCE
+              <a href="https://www.communesmaroc.com/commune/tanalt" class="grey-text text-lighten-3">
+                Tanalt
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/channel/UCeqyrVwWzEWvBjT-u3epw3w" class="grey-text text-lighten-3">
+              <a href="https://www.youtube.com/@associationakalntine6207/videos" class="grey-text text-lighten-3">
                 YouTube
               </a>
             </li>
             <li>
               <a href="https://github.com/stacsnssce/official-website" class="grey-text text-lighten-3">
-                Website Source
+                Code Source
               </a>
             </li>
             <li>
               <a href="/contributors" class="grey-text text-lighten-3">
-                Contributors
+                Contributeurs
               </a>
             </li>
           </ul>
@@ -60,7 +60,7 @@
     </div>
     <div class="footer-copyright #263238 blue-grey darken-4">
       <div class="container center">
-        STACS NSSCE © 2020
+        Akal Ntine Dartanout © 2023
       </div>
     </div>
   </footer>
