@@ -22,7 +22,7 @@ import axios from 'axios'
 export default {
   fetch ({ store }) {
     // const psts = []
-    return axios.get('https://raw.githubusercontent.com/stacsnssce/webdata/master/gallery.json')
+    return axios.get('https://raw.githubusercontent.com/nfl0/webdata/master/gallery.json')
       .then(async ({ data }) => {
         /* eslint-disable no-console */
         // console.log(data.gallery)
