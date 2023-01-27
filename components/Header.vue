@@ -3,7 +3,7 @@
     <nav>
       <div class="nav-wrapper primary-bg">
         <nuxt-link to="/" class="brand-logo">
-          <img src="@/assets/images/logo.png">
+          <img src="@/assets/images/logo2.png">
         </nuxt-link>
         <a data-target="mobile-demo" class="sidenav-trigger button-collapse">
           <i class="material-icons">menu</i>
