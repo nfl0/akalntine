@@ -90,7 +90,7 @@
       </div>
       <div class="row">
         <div class="col s12 m12 l6 hide-on-med-and-down home-about-cse ">
-          <img src="~/assets/images/home-about-cse.jpg" class="responsive-img">
+          <img src="~/assets/images/home-about-akal.jpg" class="responsive-img">
         </div>
         <div class="col s12 m12 l6 left-align hide-on-med-and-down home-about-cse">
           <h1 class="home-about-cse-h1">
