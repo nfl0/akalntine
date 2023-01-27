@@ -2,7 +2,7 @@
   <div class="container">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <div class="center-align heading">
-      <h4>Our Faculties</h4>
+      <h4>Nos Membres</h4>
     </div>
     <br>
     <br>
