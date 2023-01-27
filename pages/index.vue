@@ -8,8 +8,8 @@
         <div class="col s12 m12 l6 center-align hide-on-large-only">
           <img id="logo-mobile" src="~/assets/images/logo4.png">
           <div class="home-logo-h2">
-            <h2>Students' Association of Computer Science</h2>
-            <h5>Department of Computer Science and Engineering</h5>
+            <h2>Association Akal N'tine Dartanout</h2>
+            <h5>Association de Coopération et de Développement Rural</h5>
           </div>
         </div>
       </div>
@@ -17,8 +17,8 @@
         <div class="col s12 m12 l5 hide-on-med-and-down">
           <img id="logo-large" src="~/assets/images/logo4.png">
           <div class="home-logo-h2">
-            <h2>Students' Association of Computer Science</h2>
-            <h5>Department of Computer Science and Engineering</h5>
+            <h2>Association Akal N'tine Dartanout</h2>
+            <h5>Association de Coopération et de Développement Rural</h5>
           </div>
         </div>
         <div class="col s12 m12 l7 home-college-img-div hide-on-med-and-down">
