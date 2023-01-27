@@ -47,16 +47,16 @@
     <div class="row #e3f2fd blue lighten-5">
       <div class="col s12 m12 l6 home-about-stacs">
         <h1 class="home-about-stacs-h1">
-          About STACS
+          À Propos De L'association Akal N'tine Dartanout
         </h1>
         <p class="flow-text">
           L'Association Akal Ntine Dartanout de Coopération et de Développement Rural est une organisation à but non lucratif créée pour soutenir les communautés rurales en matière de développement économique et social. Nous nous concentrons sur l'amélioration des moyens de subsistance des agriculteurs, l'accès à l'éducation et à la santé, ainsi que sur la promotion de la participation citoyenne.
 
-Notre association est dirigée par un conseil d'administration composé de membres de la communauté et de partenaires locaux, et travaille en étroite collaboration avec les autorités locales, les ONG et les organisations internationales pour atteindre nos objectifs.
+          Notre association est dirigée par un conseil d'administration composé de membres de la communauté et de partenaires locaux, et travaille en étroite collaboration avec les autorités locales, les ONG et les organisations internationales pour atteindre nos objectifs.
 
-Nous croyons que le développement durable est essentiel pour assurer un avenir prospère pour les communautés rurales, et nous mettons en œuvre des projets innovants pour atteindre cet objectif. Nous sommes convaincus que la coopération et la participation active des communautés sont les clés pour assurer le succès de nos initiatives.
+          Nous croyons que le développement durable est essentiel pour assurer un avenir prospère pour les communautés rurales, et nous mettons en œuvre des projets innovants pour atteindre cet objectif. Nous sommes convaincus que la coopération et la participation active des communautés sont les clés pour assurer le succès de nos initiatives.
 
-Nous sommes fiers de notre engagement en faveur de la durabilité et de l'égalité, et nous sommes déterminés à continuer à travailler pour améliorer la vie des personnes dans les communautés rurales. Rejoignez-nous dans notre mission pour construire un avenir meilleur pour tous.        </p>
+          Nous sommes fiers de notre engagement en faveur de la durabilité et de l'égalité, et nous sommes déterminés à continuer à travailler pour améliorer la vie des personnes dans les communautés rurales. Rejoignez-nous dans notre mission pour construire un avenir meilleur pour tous.        </p>
       </div>
       <div class="col s12 m12 l6 home-about-stacs">
         <div class="carousel">
