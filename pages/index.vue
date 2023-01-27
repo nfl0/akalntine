@@ -9,7 +9,7 @@
           <img id="logo-mobile" src="~/assets/images/logo4.png">
           <div class="home-logo-h2">
             <h2>Association Akal N'tine Dartanout</h2>
-            <h5>Association de Coopération et de Développement Rural</h5>
+            <h5>Pour la Coopération et de Développement Rural</h5>
           </div>
         </div>
       </div>
@@ -18,7 +18,7 @@
           <img id="logo-large" src="~/assets/images/logo4.png">
           <div class="home-logo-h2">
             <h2>Association Akal N'tine Dartanout</h2>
-            <h5>Association de Coopération et de Développement Rural</h5>
+            <h5>Pour la Coopération et de Développement Rural</h5>
           </div>
         </div>
         <div class="col s12 m12 l7 home-college-img-div hide-on-med-and-down">
