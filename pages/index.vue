@@ -3,7 +3,7 @@
     <div class="row home-top">
       <div class="home-top-mobile">
         <div class="col s12 m12 l6 home-college-img-div hide-on-large-only">
-          <img class="home-college-image-mobile" src="~/assets/images/nssce5.png">
+          <img class="home-college-image-mobile" src="~/assets/images/nssce5.jpg">
         </div>
         <div class="col s12 m12 l6 center-align hide-on-large-only">
           <img id="logo-mobile" src="~/assets/images/logo4.png">
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="col s12 m12 l7 home-college-img-div hide-on-med-and-down">
-          <img class="home-college-image" src="~/assets/images/nssce5.png">
+          <img class="home-college-image" src="~/assets/images/nssce5.jpg">
         </div>
       </div>
     </div>
