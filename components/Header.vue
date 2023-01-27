@@ -15,17 +15,17 @@
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/activities/">
+            <nuxt-link to="/#activities/">
               Activités
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/awards/">
+            <nuxt-link to="/#awards/">
               Récompenses
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/newsletter/">
+            <nuxt-link to="/#newsletter/">
               Bulletin
             </nuxt-link>
           </li>
@@ -35,7 +35,7 @@
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/blog/">
+            <nuxt-link to="/#blog/">
               Blog
             </nuxt-link>
           </li>
@@ -60,17 +60,17 @@
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/activities/">
+        <nuxt-link to="/#activities/">
           Activités
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/awards/">
+        <nuxt-link to="/#awards/">
           Récompenses
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/newsletter/">
+        <nuxt-link to="/#newsletter/">
           Bulletin
         </nuxt-link>
       </li>
@@ -80,7 +80,7 @@
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/blog/">
+        <nuxt-link to="/#blog/">
           Blog
         </nuxt-link>
       </li>
