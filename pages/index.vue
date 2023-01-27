@@ -121,7 +121,7 @@
             </div>
             <div class="col s12 m12 l6 home-achivement-events-inner-right-box">
               <h3 class="home-achivement-events-h3">
-                Recent Events
+                Événements récents
               </h3>
               <div class="home-achivement-events-innerbox">
                 <dl v-for="event in events" :key="event">
@@ -163,7 +163,7 @@ export default {
   async asyncData (context) {
     const {notice} = await axios
       .get(
-        'https://raw.githubusercontent.com/stacsnssce/webdata/master/notice.json',
+        'https://raw.githubusercontent.com/nfl0/webdata/master/notice.json',
       )
       .then(({ data }) => {
         return {
@@ -173,7 +173,7 @@ export default {
       .catch(()=>[])
     const recent = await axios
     .get(
-      'https://raw.githubusercontent.com/stacsnssce/webdata/master/recent.json',
+      'https://raw.githubusercontent.com/nfl0/webdata/master/recent.json',
     )
     .then(({ data }) => {
       return {

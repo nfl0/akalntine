@@ -41,7 +41,7 @@
           </li>
           <li>
             <nuxt-link to="/committee/">
-              Committee
+              Comité
             </nuxt-link>
           </li>
         </ul>
@@ -86,7 +86,7 @@
       </li>
       <li>
         <nuxt-link to="/committee/" class="sidenav-close">
-          Committee
+          Comité
         </nuxt-link>
       </li>
     </ul>
