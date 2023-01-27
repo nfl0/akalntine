@@ -85,7 +85,7 @@
           </p>
         </div>
         <div class="col s12 m12 l6 hide-on-large-only home-about-cse-padding">
-          <img src="~/assets/images/home-about-cse.jpg" class="responsive-img ">
+          <img src="~/assets/images/home-about-akal.jpg" class="responsive-img ">
         </div>
       </div>
       <div class="row">
