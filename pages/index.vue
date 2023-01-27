@@ -50,8 +50,13 @@
           About STACS
         </h1>
         <p class="flow-text">
-          Students' Association of Computer Science (STACS) is the departmental association of both B.Tech and M.Tech students of the Computer Science and Engineering Department.This association will be an integration of students into academic communities at the department level, crossing the course boundary, providing a platform to organise a range of activities with the support and resources of the department. The association will provide opportunities for students to share a range of extra-curricular experiences.
-        </p>
+          L'Association Akal Ntine Dartanout de Coopération et de Développement Rural est une organisation à but non lucratif créée pour soutenir les communautés rurales en matière de développement économique et social. Nous nous concentrons sur l'amélioration des moyens de subsistance des agriculteurs, l'accès à l'éducation et à la santé, ainsi que sur la promotion de la participation citoyenne.
+
+Notre association est dirigée par un conseil d'administration composé de membres de la communauté et de partenaires locaux, et travaille en étroite collaboration avec les autorités locales, les ONG et les organisations internationales pour atteindre nos objectifs.
+
+Nous croyons que le développement durable est essentiel pour assurer un avenir prospère pour les communautés rurales, et nous mettons en œuvre des projets innovants pour atteindre cet objectif. Nous sommes convaincus que la coopération et la participation active des communautés sont les clés pour assurer le succès de nos initiatives.
+
+Nous sommes fiers de notre engagement en faveur de la durabilité et de l'égalité, et nous sommes déterminés à continuer à travailler pour améliorer la vie des personnes dans les communautés rurales. Rejoignez-nous dans notre mission pour construire un avenir meilleur pour tous.        </p>
       </div>
       <div class="col s12 m12 l6 home-about-stacs">
         <div class="carousel">
