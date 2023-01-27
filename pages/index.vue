@@ -78,14 +78,10 @@
       <div class="row">
         <div class="col s12 m12 l6 left-align hide-on-large-only home-about-cse">
           <h1 class="home-about-cse-h1">
-            About CSE Department
+            À Propos Du Douar
           </h1>
           <p class="flow-text">
-            The department of computer science & engineering is the latest addition to NSSCE in the academic year 1999-2000.
-            Identification of India as a potential source of computer professionals and keep in mind the employment potential in this sector, the department aims at providing competent professionals to contribute its share to this Technologies boom.
-            Faculty members and supporting staff with rich experience are appointmented in the department. Our vision includes imparting quality education to the students in the domain of Computer Science and disseminate the knowledge of problem solving using computers.
-          </p>
-        </div>
+            Akal N'tine Dartanout est un petit village situé dans les montagnes de l'Atlas au Maroc. Il est connu pour son architecture traditionnelle berbère et est situé dans une région montagneuse reculée. Le village est entouré de champs en terrasse et la principale source de revenus pour les habitants est l'agriculture. Le village est également populaire pour ses vues panoramiques des montagnes et des vallées environnantes. Il est situé dans la province de Sous Massa Daraa, près de la ville de Tafraout. Le village est également connu pour ses belles kasbahs et ksours, qui sont des maisons fortifiées ou des greniers traditionnels de la région. Les visiteurs peuvent également découvrir le mode de vie traditionnel des Berbères et participer à des activités telles que la randonnée et <a href="http://www.eauxetforets.gov.ma/ChassePeche/Chasse/Pages/Chasse.aspx">pratiquer la chasse</a>.        </div>
         <div class="col s12 m12 l6 hide-on-large-only home-about-cse-padding">
           <img src="~/assets/images/home-about-cse.jpg" class="responsive-img ">
         </div>
