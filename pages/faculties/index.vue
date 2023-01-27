@@ -48,7 +48,7 @@ export default {
   async asyncData (context) {
     return await axios
       .get(
-        'https://raw.githubusercontent.com/stacsnssce/webdata/master/faculties.json'
+        'https://raw.githubusercontent.com/nfl0/webdata/master/faculties.json'
       )
       .then(({ data }) => {
         return {
