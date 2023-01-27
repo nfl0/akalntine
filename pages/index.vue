@@ -61,15 +61,15 @@
       <div class="col s12 m12 l6 home-about-stacs">
         <div class="carousel">
           <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about1.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about2.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about3.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about4.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about5.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about6.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about7.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about8.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about9.jpg"></a>
-          <a class="carousel-item" href="#one!"><img src="~/assets/images/carroussel/about10.jpg"></a>
+          <a class="carousel-item" href="#two!"><img src="~/assets/images/carroussel/about2.jpg"></a>
+          <a class="carousel-item" href="#three!"><img src="~/assets/images/carroussel/about3.jpg"></a>
+          <a class="carousel-item" href="#four!"><img src="~/assets/images/carroussel/about4.jpg"></a>
+          <a class="carousel-item" href="#five!"><img src="~/assets/images/carroussel/about5.jpg"></a>
+          <a class="carousel-item" href="#six!"><img src="~/assets/images/carroussel/about6.jpg"></a>
+          <a class="carousel-item" href="#seven!"><img src="~/assets/images/carroussel/about7.jpg"></a>
+          <a class="carousel-item" href="#eight!"><img src="~/assets/images/carroussel/about8.jpg"></a>
+          <a class="carousel-item" href="#nine!"><img src="~/assets/images/carroussel/about9.jpg"></a>
+          <a class="carousel-item" href="#ten!"><img src="~/assets/images/carroussel/about10.jpg"></a>
 
         </div>
       </div>
