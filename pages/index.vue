@@ -146,9 +146,9 @@ export default {
   },
   head () {
     return {
-      title: 'STACS | Department of Computer Science And Engineering | NSSCE',
+      title: 'Association Akal Ntine Dartanout',
       meta: [
-        { hid: 'description', name: 'description', content: 'An association of students in Department of Computer Science at NSS College of Engineering where they can develop their technical knowledge and share their talents within' }
+        { hid: 'description', name: 'description', content: 'Association Akal Ntine Dartanout de Coopération et de Développement Rural est une organisation à but non lucratif créée pour soutenir les communautés rurales en matière de développement économique et social.' }
       ]
     }
   },

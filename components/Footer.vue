@@ -50,7 +50,7 @@
               </a>
             </li>
             <li>
-              <a href="/contributors" class="grey-text text-lighten-3">
+              <a href="/#contributors" class="grey-text text-lighten-3">
                 Contributeurs
               </a>
             </li>

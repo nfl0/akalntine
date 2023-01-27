@@ -58,9 +58,9 @@ export default {
   },
   head () {
     return {
-      title: 'Faculties - Department of Computer Science And Engineering - NSSCE',
+      title: 'Membres - Association Akal Ntine Dartanout',
       meta: [
-        { hid: 'description', name: 'description', content: 'Faculties of Department of Computer Science And Engineering in NSS College of Engineering. The faculties provide constant support for students' }
+        { hid: 'description', name: 'description', content: 'Galerie de lAssociation Akal Ntine Dartanout' }
       ]
     }
   }

@@ -38,9 +38,9 @@ export default {
   },
   head () {
     return {
-      title: 'STACS Gallery',
+      title: 'Galerie - Association Akal Ntine Dartanout',
       meta: [
-        { hid: 'description', name: 'description', content: 'Photo gallery showcasing events and activities of STACS' }
+        { hid: 'description', name: 'description', content: 'Galerie photos des événements et activités de l Association Akal Ntine Dartanout' }
       ]
     }
   }

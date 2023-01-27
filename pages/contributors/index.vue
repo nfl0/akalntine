@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="center-align">
-      <h4>Contributors</h4>
+      <h4>Contributeurs</h4>
     </div>
     <br>
     <br>
