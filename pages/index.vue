@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="home-notice-box flow-text #80d8ff light-blue accent-1">
+    <div class="home-notice-box flow-text #80d8ff light-blue accent-1 hidden">
       <div class="row valign-wrapper">
         <div class="arrow-right"></div>
         <a class="left-align" :href="`${notice[current_notice].link}`">
@@ -109,13 +109,13 @@
     <div class="home-achivement-events">
       <div class="home-achivement-events-container">
         <h1 class="home-achivement-events-h1">
-          Achivements & Events
+          Réalisations Et Événements
         </h1>
         <div class="row">
           <div class="home-achivement-events-display">
             <div class="col s12 m12 l6">
               <h3 class="home-achivement-events-h3">
-                Recent Achivements
+                Réalisations Récentes
               </h3>
               <div class="home-achivement-events-innerbox">
                 <dl v-for="achivement in achivements" :key="achivement">
