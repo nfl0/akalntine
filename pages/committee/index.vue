@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="center-align heading">
-      <h4>Our Committee Members</h4>
+      <h4>Les membres de notre comité</h4>
     </div>
     <br>
     <br>
@@ -74,7 +74,7 @@ export default {
   async asyncData (context) {
     return await axios
       .get(
-        'https://raw.githubusercontent.com/stacsnssce/webdata/master/committee.json'
+        'https://raw.githubusercontent.com/nfl0/webdata/master/committee.json'
       )
       .then(({ data }) => {
         return {
