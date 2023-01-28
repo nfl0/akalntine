@@ -28,7 +28,7 @@
               </p>
               <a :href="`${c.profile || 'http://nssce.ac.in'}`">
                 <div class="prof">
-                View Profile
+                Voir Profil
                 <i class="fa fa-info-circle" />
                 </div>
               </a>
