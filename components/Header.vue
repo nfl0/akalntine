@@ -100,7 +100,15 @@ export default {
   }
 }
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVNZB0QCYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-VVNZB0QCYM');
+</script>
 <style lang="scss" scoped>
 a {
   font-size: 18px;
