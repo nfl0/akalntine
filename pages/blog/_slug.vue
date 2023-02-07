@@ -44,7 +44,7 @@ export default {
             content: payload.body
         }
       } else {
-        return await axios.get(`https://raw.githubusercontent.com/stacsnssce/webdata/master/posts/${params.id}.md`)
+        return await axios.get(`https://raw.githubusercontent.com/nfl0/webdata/master/posts/${params.id}.md`)
           .then((res) => {
             const mdf = fm(res.data)
             return {
