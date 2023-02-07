@@ -59,7 +59,7 @@ const fm = require('front-matter')
 export default {
   fetch ({ store }) {
     // const psts = []
-    return axios.get('https://api.github.com/repos/stacsnssce/webdata/contents/posts')
+    return axios.get('https://api.github.com/repos/nfl0/webdata/contents/posts')
       .then(async ({ data }) => {
         /* eslint-disable no-console */
         store.commit('blogPosts', await Promise.all(data.map(async (element) => {
