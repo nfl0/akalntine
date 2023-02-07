@@ -35,7 +35,7 @@
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/#blog/">
+            <nuxt-link to="/blog/">
               Blog
             </nuxt-link>
           </li>
@@ -80,7 +80,7 @@
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/#blog/">
+        <nuxt-link to="/blog/">
           Blog
         </nuxt-link>
       </li>
