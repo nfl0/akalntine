@@ -35,7 +35,7 @@
             </div>
           </div>
           <nuxt-link :to="{name: 'blog-slug', params:{slug: post.slug, id: post.id}}">
-            Read More....
+            En savoir plus....
           </nuxt-link>
         </div>
         <div class="col blog-col s12 m3 l4 center-align hide-on-small-only ">
