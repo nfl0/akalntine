@@ -10,7 +10,7 @@
       </h4>
       <div class="allimg row">
         <div v-for="im in ga.images" :key="im" class="col s12 m4 l4 img-wrapper">
-          <img :src="im" class="img">
+          <img :src="im" class="img" loading="lazy">
         </div>
       </div>
     </section>
