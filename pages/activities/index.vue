@@ -7,12 +7,16 @@
       <div class="row">
         <div class="col s12">
           <div class="iframe-wrapper">
-            <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fasso.akalntine&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-              frameborder="0"
-              allowfullscreen="true"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            ></iframe>
+            <div
+              class="fb-page"
+              data-width="10000"
+              data-adapt-container-width="true"
+              data-href="https://www.facebook.com/asso.akalntine"
+              data-tabs="timeline"
+              data-small-header="false"
+              data-hide-cover="false"
+              data-show-facepile="true"
+            ></div>
           </div>
         </div>
       </div>
@@ -33,6 +37,17 @@ export default {
         },
       ],
     };
+  },
+  mounted() {
+    const TIMEOUT = null;
+    window.addEventListener('resize', () => {
+      if (TIMEOUT === null) {
+        window.setTimeout(() => {
+          $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
+          FB.XFBML.parse();
+        }, 300);
+      }
+    });
   },
 };
 </script>
