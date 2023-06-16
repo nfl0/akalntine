@@ -6,11 +6,12 @@
     <div class="container activities-wrapper">
       <div class="row">
         <div class="col s12">
-          <div class="facebook-posts">
-            <div v-for="post in posts" :key="post.id" class="post">
-              <div v-html="post.embeddedHtml"></div>
-              <!-- Render other post details as needed -->
-            </div>
+          <div id="fb-root"></div>
+          <div class="fb-post" data-href="https://www.facebook.com/asso.akalntine/posts/pfbid02UT8A6UQrFPct1uJbXjLAQjMRM1bKZCDFEeZESyEMe763QDhbXZoGChuxpUixFwcrl" data-width="500" data-show-text="true">
+            <blockquote cite="https://www.facebook.com/asso.akalntine/posts/637090791792347" class="fb-xfbml-parse-ignore">
+              <p>لإحياء ألموكار ن فكرض قامت الجمعيات الثلاثة أساسيل تيارت و أكالنتين على هامش التكوينات التي حضيت بها أيت إحيا بالتشاور...</p>
+              Posted by <a href="https://www.facebook.com/asso.akalntine">Association Akal Ntine Dartanout de Coopération et de Développement Rural</a> on&nbsp;<a href="https://www.facebook.com/asso.akalntine/posts/637090791792347">Saturday, 20 May 2023</a>
+            </blockquote>
           </div>
         </div>
       </div>
@@ -20,42 +21,14 @@
 
 <script>
 export default {
-  data() {
-    return {
-      posts: [],
-    };
-  },
-  async mounted() {
-    await this.fetchFacebookPosts();
-  },
-  methods: {
-    async fetchFacebookPosts() {
-      try {
-        const response = await fetch(
-          'https://graph.facebook.com/v13.0/1336162506510924/posts?fields=full_picture,message,permalink_url&limit=5'
-        );
-        const data = await response.json();
-        this.posts = data.data.map((post) => ({
-          id: post.id,
-          message: post.message,
-          embeddedHtml: this.getEmbeddedHtml(post.permalink_url),
-        }));
-      } catch (error) {
-        console.error('Error fetching Facebook posts:', error);
-      }
-    },
-    getEmbeddedHtml(url) {
-      return `<div class="fb-post" data-href="${url}" data-width="500"></div>`;
-    },
-  },
   head() {
     return {
-      title: 'Activités - Association Akal N\'tine Dartanout',
+      title: "Activités - Association Akal N'tine Dartanout",
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Activities and Events conducted by Association Akal N\'tine Dartanout Association',
+          content: "Activities and Events conducted by Association Akal N'tine Dartanout Association",
         },
       ],
     };
@@ -67,17 +40,14 @@ export default {
 .activities-page {
   .page-title {
     color: black;
-    font: bold 40px/1.1 'Source Sans Pro', sans-serif;
+    font: bold 40px/1.1 "Source Sans Pro", sans-serif;
     margin-bottom: 2rem;
   }
   .activities-wrapper {
     margin: 0 auto;
   }
-  .facebook-posts {
-    // Adjust the styling for your Facebook posts
-  }
-  .post {
-    // Adjust the styling for each Facebook post
+  .fb-post {
+    width: 500px;
   }
 }
 </style>
