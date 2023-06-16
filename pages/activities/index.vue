@@ -1,7 +1,7 @@
 <template>
   <section class="activities-page">
     <h1 class="page-title center-align">
-      Activities
+      Activités
     </h1>
     <div class="container activities-wrapper">
       <div class="row">
@@ -26,12 +26,12 @@
 export default {
   head() {
     return {
-      title: 'Activities - STACS - NSS College of Engineering',
+      title: "Activités - Association Akal N'tine Dartanout",
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Activities and Events conducted by STACS to encourage students and give them more opportunities',
+          content: "Activities and Events conducted by Association Akal N'tine Dartanout Association",
         },
       ],
     };
