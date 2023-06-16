@@ -6,14 +6,7 @@
     <div class="container activities-wrapper">
       <div class="row">
         <div class="col s12">
-          <div class="iframe-wrapper">
-            <iframe
-              :src="facebookPluginSrc"
-              frameborder="0"
-              allowfullscreen="true"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            ></iframe>
-          </div>
+          <div class="fb-page center-block" data-width="10000" data-adapt-container-width="true" data-href="https://www.facebook.com/asso.akalntine"></div>
         </div>
       </div>
     </div>
@@ -22,12 +15,6 @@
 
 <script>
 export default {
-  computed: {
-    facebookPluginSrc() {
-      const width = Math.min(window.innerWidth, 1000);
-      return `https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fasso.akalntine&tabs=timeline&width=${width}&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId`;
-    },
-  },
   head() {
     return {
       title: "Activités - Association Akal N'tine Dartanout",
@@ -40,7 +27,37 @@ export default {
       ],
     };
   },
+  mounted() {
+    // Load Facebook SDK
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  },
 };
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  var TIMEOUT = null;
+
+  $(window).on('resize', function() {
+    if (TIMEOUT === null) {
+      TIMEOUT = window.setTimeout(function() {
+        TIMEOUT = null;
+        // fb_iframe_widget class is added after first FB.FXBML.parse()
+        // fb_iframe_widget_fluid is added in the same situation, but only for mobile devices (tablets, phones)
+        // By removing those classes FB.XFBML.parse() will reset the plugin widths.
+        $('.fb-page').removeClass('fb_iframe_widget fb_iframe_widget_fluid');
+
+        FB.XFBML.parse();
+      }, 300);
+    }
+  });
 </script>
 
 <style lang="scss">
@@ -52,21 +69,6 @@ export default {
   }
   .activities-wrapper {
     margin: 0 auto;
-  }
-  .iframe-wrapper {
-    position: relative;
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    overflow: hidden;
-  }
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    overflow: hidden;
   }
 }
 </style>
