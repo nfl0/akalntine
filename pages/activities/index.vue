@@ -6,16 +6,16 @@
     <div class="container activities-wrapper">
       <div class="row">
         <div class="col s12">
-          <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fasso.akalntine&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-            width="500"
-            height="500"
-            style="border:none;overflow:hidden"
-            scrolling="no"
-            frameborder="0"
-            allowfullscreen="true"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          ></iframe>
+          <div class="iframe-wrapper">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fasso.akalntine&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+              width="500"
+              height="500"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -43,10 +43,26 @@ export default {
 .activities-page {
   .page-title {
     color: black;
-    font: Bold 40px/43px Source Sans Pro;
+    font: bold 40px/1.1 "Source Sans Pro", sans-serif;
+    margin-bottom: 2rem;
   }
   .activities-wrapper {
     margin: 0 auto;
+  }
+  .iframe-wrapper {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
   }
 }
 </style>
