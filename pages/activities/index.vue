@@ -6,10 +6,11 @@
     <div class="container activities-wrapper">
       <div class="row">
         <div class="col s12">
-          <div class="fb-page" data-href="https://www.facebook.com/asso.akalntine" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/asso.akalntine" class="fb-xfbml-parse-ignore">
-              <a href="https://www.facebook.com/asso.akalntine">Association Akal N'tine Dartanout</a>
-            </blockquote>
+          <div class="facebook-posts">
+            <div v-for="post in posts" :key="post.id" class="post">
+              <div v-html="post.embeddedHtml"></div>
+              <!-- Render other post details as needed -->
+            </div>
           </div>
         </div>
       </div>
@@ -19,6 +20,34 @@
 
 <script>
 export default {
+  data() {
+    return {
+      posts: [],
+    };
+  },
+  async mounted() {
+    await this.fetchFacebookPosts();
+  },
+  methods: {
+    async fetchFacebookPosts() {
+      try {
+        const response = await fetch(
+          'https://graph.facebook.com/v13.0/1336162506510924/posts?fields=full_picture,message,permalink_url&limit=5'
+        );
+        const data = await response.json();
+        this.posts = data.data.map((post) => ({
+          id: post.id,
+          message: post.message,
+          embeddedHtml: this.getEmbeddedHtml(post.permalink_url),
+        }));
+      } catch (error) {
+        console.error('Error fetching Facebook posts:', error);
+      }
+    },
+    getEmbeddedHtml(url) {
+      return `<div class="fb-post" data-href="${url}" data-width="500"></div>`;
+    },
+  },
   head() {
     return {
       title: 'Activités - Association Akal N\'tine Dartanout',
@@ -44,10 +73,11 @@ export default {
   .activities-wrapper {
     margin: 0 auto;
   }
-  .fb-page {
-    width: 100%;
-    overflow: hidden;
-    border: none;
+  .facebook-posts {
+    // Adjust the styling for your Facebook posts
+  }
+  .post {
+    // Adjust the styling for each Facebook post
   }
 }
 </style>
