@@ -3,11 +3,13 @@
     <h1 class="page-title center-align">
       Activities
     </h1>
-    <div class="container-fluid activities-wrapper">
+    <div class="container activities-wrapper">
       <div class="row">
         <div class="col s12">
           <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fasso.akalntine&tabs=timeline&width=100%&height=100%&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fasso.akalntine&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            width="500"
+            height="500"
             style="border:none;overflow:hidden"
             scrolling="no"
             frameborder="0"
@@ -45,7 +47,6 @@ export default {
   }
   .activities-wrapper {
     margin: 0 auto;
-    height: 100vh;
   }
 }
 </style>
