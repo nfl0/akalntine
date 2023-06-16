@@ -50,7 +50,7 @@ export default {
   .iframe-wrapper {
     position: relative;
     height: 0;
-    padding-bottom: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
     overflow: hidden;
   }
   iframe {
