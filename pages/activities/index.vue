@@ -5,14 +5,12 @@
     </h1>
   <div class="container activities-wrapper">
     <div class="row">
-      <div v-for="activity in activities.slice().reverse()" :key="activity.id" class="col s12 m6">
+      <div v-for="post in posts.slice().reverse()" :key="post.post_url" class="col s12 m6">
         <div class="card activity-card">
-          <nuxt-link
-            :to="{name: 'activities-desc', params: {desc: activity.desc, id: activity.id}}"
-          >
+          <a :href="post.post_url" target="_blank">
             <div class="card-image">
               <progressive-img
-                :src="`${activity.attribute.cover}`"
+                :src="post.image"
                 placeholder="/imageplaceholder8x5.png"
                 blur="30"
                 delay="200"
@@ -21,13 +19,13 @@
             </div>
             <div class="card-content">
               <h5 class="act-card-title">
-                <b>{{ activity.attribute.title }}</b>
+                <b>{{ post.post_text }}</b>
               </h5>
               <h6 class="act-card-date">
-                {{ activity.attribute.date }}
+                {{ post.time }}
               </h6>
             </div>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>
@@ -37,38 +35,17 @@
 
 <script>
 import axios from 'axios'
-const fm = require('front-matter')
 
 export default {
-  fetch ({ store }) {
-    return axios.get('https://api.github.com/repos/nfl0/webdata/contents/activities')
-      .then(async ({ data }) => {
-        /* eslint-disable no-console */
-        // console.log(data)
-
-        store.commit('Activities', await Promise.all(data.map(async (element) => {
-          return await axios.get(element.download_url).then((res) => {
-            const mdf = fm(res.data)
-            // eslint-disable-next-line
-            // console.log(mdf)
-            return {
-              attribute: mdf.attributes,
-              desc: element.sha,
-              body: mdf.body,
-              id: element.name.slice(0, -3)
-            }
-          })
-          // store.commit('Activities', activities)
-        })))
-      })
-  },
-  computed: {
-    activities () {
-      return this.$store.state.activities
+  data() {
+    return {
+      posts: []
     }
   },
-  // async asyncData (context) {
-  // }
+  async created() {
+    const response = await axios.get('https://raw.githubusercontent.com/nfl0/webdata/master/activities/activities.json')
+    this.posts = response.data
+  },
   head () {
     return {
       title: "Activités - Association Akal N'tine Dartanout",
