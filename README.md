@@ -1,6 +1,6 @@
 # STACS WEBSITE
  
-> This is the official website for STACS - Students Association of Computer Science, an organization functioning in NSS College of Engineering
+> This is the official website for Association Akal N'tine Dartanout, For Cooperation and Rural Development
   
 ## Build Setup
 
@@ -21,4 +21,4 @@ $ npm run generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-![enter image description here](https://github.com/stacsnssce.png?size=50) ![enter image description here](https://github.com/nuxt.png?size=50)
+![enter image description here](https://github.com/nuxt.png?size=50)
