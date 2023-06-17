@@ -60,7 +60,7 @@
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/#activities/">
+        <nuxt-link to="/activities/">
           Activités
         </nuxt-link>
       </li>
