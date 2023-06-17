@@ -95,6 +95,11 @@ export default {
   }
   .act-card-title {
     color: #035f59;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to display */
+    -webkit-box-orient: vertical;
   }
   .act-card-date {
     color: rgb(49, 49, 49);
