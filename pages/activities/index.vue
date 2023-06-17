@@ -1,7 +1,7 @@
 <template>
   <section class="activities-page">
     <h1 class="page-title center-align">
-      Activities
+      Activités
     </h1>
   <div class="container activities-wrapper">
     <div class="row">
@@ -41,7 +41,7 @@ const fm = require('front-matter')
 
 export default {
   fetch ({ store }) {
-    return axios.get('https://api.github.com/repos/stacsnssce/webdata/contents/activities')
+    return axios.get('https://api.github.com/repos/nfl0/webdata/contents/activities')
       .then(async ({ data }) => {
         /* eslint-disable no-console */
         // console.log(data)
@@ -71,9 +71,9 @@ export default {
   // }
   head () {
     return {
-      title: 'Activities - STACS - NSS College of Engineering',
+      title: "Activités - Association Akal N'tine Dartanout",
       meta: [
-        { hid: 'description', name: 'description', content: 'Activities and Events conducted by STACS to encourage students and give them more opportunities' }
+        { hid: 'description', name: 'description', content: "Activities and Events conducted by Association Akal N'tine Dartanout Association" }
       ]
     }
   }
