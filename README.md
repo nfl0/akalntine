@@ -1,4 +1,4 @@
-# STACS WEBSITE
+# Akal N'tine Dartanout Association WEBSITE
  
 > This is the official website for Association Akal N'tine Dartanout, For Cooperation and Rural Development
   
