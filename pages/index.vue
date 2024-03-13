@@ -9,7 +9,7 @@
           <img id="logo-mobile" src="~/assets/images/logo4.png">
           <div class="home-logo-h2">
             <h2>Association Akal N'tine Dartanout</h2>
-            <h5>Pour la Coopération et de Développement Rural!</h5>
+            <h5>Pour la Coopération et de Développement Rural</h5>
           </div>
         </div>
       </div>
